@@ -1,0 +1,12 @@
+body{
+    text-align: center;
+    background-color: black;
+    color:antiquewhite;
+}
+
+header, main, footer{
+    width: 1000;
+    border: 20;
+    color: antiquewhite;
+    size: 20px;
+}
