@@ -6,11 +6,15 @@ body{
     color: whitesmoke;
 }
 
+.light-mode {
+    background-color: azure;
+    color: black;
+}
+
 header, main, footer{
     
     width: 1000;
-    border: 20;
-    color: whitesmoke;
+    border: 20;;
     size: 20px;
 }
 
@@ -19,8 +23,17 @@ a{
 }
 
 p1, p{
-    color: whitesmoke;
     width: 1000;
     border: 36px;
     border-color: rgb(255, 255, 255);
+}
+
+div{
+    position: relative;
+    animation-name: test;
+    animation-duration: 4s;
+}
+
+@keyframes test {
+    0% {}
 }
