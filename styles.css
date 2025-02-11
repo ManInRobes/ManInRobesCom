@@ -4,23 +4,37 @@
 
 /* DarkMode LightMode */
     .light-mode{
-        background-color: azure;
+        background-color: rgb(255, 173, 180);
         color: black;
         text-decoration-line: none
     }
 
-    .light-mode #social a{
+    .light-mode p1{
+        background-color: rgb(255, 145, 145);
+    }
+
+    .light-mode * a{
+        color: red;
+    }
+
+    /* .light-mode #social a{
         color: red;
 
     }
 
     .light-mode nav a{
         color: red;
-    }
+    } */
 /* DarkMode LightMode */
 
 header, main, footer{
     size: 20px;
+}
+
+p1{
+    background-color: rgb(19, 19, 19);
+    padding: 10px;
+    border-radius: 15px;
 }
 
 #social a{
@@ -60,12 +74,6 @@ body{
     background-color: rgb(16, 16, 16);
     margin: 0 auto;
 }
-
-#about p1{
-}
-
-
-
 
 a{
     color: rgb(69, 193, 255);
