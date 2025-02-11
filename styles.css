@@ -2,15 +2,34 @@
     
 }
 
-.light-mode{
-    background-color: azure;
-    color: black;
-    text-decoration-line: none
-}
+/* DarkMode LightMode */
+    .light-mode{
+        background-color: azure;
+        color: black;
+        text-decoration-line: none
+    }
 
+    .light-mode #social a{
+        color: red;
+
+    }
+
+    .light-mode nav a{
+        color: red;
+    }
+/* DarkMode LightMode */
 
 header, main, footer{
     size: 20px;
+}
+
+#social a{
+    font-weight: bold;
+    padding: 2;
+}
+
+#social a:hover{
+    color: chartreuse;
 }
 
 nav a{
